@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import atom from './assets/react-core-concepts.png'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
+        <img src={atom} alt="Stylized atom" />
+        <h1>React Essentials</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Fundamental React concepts you will need for almost any app you are
+          going to build!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <main>
+        <h2>Time to get started!</h2>
+      </main>
     </div>
   );
 }

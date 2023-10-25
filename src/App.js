@@ -11,7 +11,7 @@ function genRandomInt(max) {
 function Header() {
   return (
     <header>
-      <img src={atom} alt="Stylized atom" />
+      <img src={atom} alt="stylized atom" />
       <h1>React Essentials</h1>
       <p>
         Fundamental React concepts you will need for almost any app you are

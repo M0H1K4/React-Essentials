@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Essentials/static/css/main.603fbca9.css",
-    "main.js": "/React-Essentials/static/js/main.a3b57028.js",
+    "main.js": "/React-Essentials/static/js/main.ece6288c.js",
     "static/js/787.09d3469a.chunk.js": "/React-Essentials/static/js/787.09d3469a.chunk.js",
     "static/media/config.png": "/React-Essentials/static/media/config.afd8e8f0d2acd6b65ae8.png",
     "static/media/jsx-ui.png": "/React-Essentials/static/media/jsx-ui.9326b60f84ddfaad2e3b.png",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/React-Essentials/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-Essentials/index.html",
     "main.603fbca9.css.map": "/React-Essentials/static/css/main.603fbca9.css.map",
-    "main.a3b57028.js.map": "/React-Essentials/static/js/main.a3b57028.js.map",
+    "main.ece6288c.js.map": "/React-Essentials/static/js/main.ece6288c.js.map",
     "787.09d3469a.chunk.js.map": "/React-Essentials/static/js/787.09d3469a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.603fbca9.css",
-    "static/js/main.a3b57028.js"
+    "static/js/main.ece6288c.js"
   ]
 }

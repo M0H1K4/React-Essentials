@@ -1,14 +1,16 @@
-import logo from "./logo.svg";
+import { useState } from "react";
+
 import "./App.css";
 
-import componentsImg from "./assets/components.png";
 import { CORE_CONCEPTS } from "./data";
 import Header from "./components/Header";
 import CoreConcept from "./components/CoreConcept";
 import TabButton from "./components/TabButton";
 
 function App() {
-  function handleSelect(selectedButton) {
+  const [] = useState();
+
+  function handleSelect() {
     //luka
     console.log("Selected!!!!!");
   }

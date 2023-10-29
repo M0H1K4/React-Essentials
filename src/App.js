@@ -8,10 +8,11 @@ import CoreConcept from "./components/CoreConcept";
 import TabButton from "./components/TabButton";
 
 function App() {
-  const [] = useState();
+  const [selectedTopic, setSelectedTopic] = useState("daachire yleo !");
 
-  function handleSelect() {
-    //luka
+  function handleSelect(selectedButton) {
+    
+    setSelectedTopic(selectedButton)
     console.log("Selected!!!!!");
   }
   return (
@@ -31,7 +32,7 @@ function App() {
             <CoreConcept {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
-        <sectoon id="examples">
+        <section id="examples">
           <h2>Exapmles</h2>
           <menu>
             <TabButton onSelect={() => handleSelect("components")}>
@@ -41,8 +42,8 @@ function App() {
             <TabButton onSelect={() => handleSelect("props")}>Props</TabButton>
             <TabButton onSelect={() => handleSelect("state")}>State</TabButton>
           </menu>
-          Dynamic Content
-        </sectoon>
+         {selectedTopic}
+        </section>
       </main>
     </div>
   );

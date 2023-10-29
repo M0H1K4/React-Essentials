@@ -6,14 +6,13 @@ import { CORE_CONCEPTS } from "./data";
 import Header from "./components/Header";
 import CoreConcept from "./components/CoreConcept";
 import TabButton from "./components/TabButton";
-import  {} from './data'
+import { EXAMPLES } from "./data";
 
 function App() {
-  const [selectedTopic, setSelectedTopic] = useState("daachire yleo !");
+  const [selectedTopic, setSelectedTopic] = useState("components");
 
   function handleSelect(selectedButton) {
-    
-    setSelectedTopic(selectedButton)
+    setSelectedTopic(selectedButton);
     console.log(selectedTopic);
   }
   return (
@@ -43,15 +42,13 @@ function App() {
             <TabButton onSelect={() => handleSelect("props")}>Props</TabButton>
             <TabButton onSelect={() => handleSelect("state")}>State</TabButton>
           </menu>
-      <div id="tab-content">
-      <h3></h3>
-      <p></p>
-      <pre>
-        <code>
-
-        </code>
-      </pre>
-      </div>
+          <div id="tab-content">
+            <h3>{EXAMPLES[selectedTopic].title}</h3>
+            <p>{EXAMPLES[selectedTopic].description}</p>
+            <pre>
+              <code>{EXAMPLES[selectedTopic].code}</code>
+            </pre>
+          </div>
         </section>
       </main>
     </div>

@@ -6,6 +6,7 @@ import { CORE_CONCEPTS } from "./data";
 import Header from "./components/Header";
 import CoreConcept from "./components/CoreConcept";
 import TabButton from "./components/TabButton";
+import  {} from './data'
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState("daachire yleo !");
@@ -42,7 +43,15 @@ function App() {
             <TabButton onSelect={() => handleSelect("props")}>Props</TabButton>
             <TabButton onSelect={() => handleSelect("state")}>State</TabButton>
           </menu>
-         {selectedTopic}
+      <div id="tab-content">
+      <h3></h3>
+      <p></p>
+      <pre>
+        <code>
+
+        </code>
+      </pre>
+      </div>
         </section>
       </main>
     </div>

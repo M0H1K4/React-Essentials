@@ -13,7 +13,7 @@ function App() {
   function handleSelect(selectedButton) {
     
     setSelectedTopic(selectedButton)
-    console.log("Selected!!!!!");
+    console.log(selectedTopic);
   }
   return (
     <div>
